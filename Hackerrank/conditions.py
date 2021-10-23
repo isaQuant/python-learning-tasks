@@ -22,7 +22,7 @@ Print Weird if the number is weird. Otherwise, print Not Weird.
 """
 
 if __name__ == '__main__':
-    n = 2
+    n = 5
     if n % 2 != 0:
         print("Weird")
     elif n % 2 == 0 and n >= 2 and n <= 5:
@@ -31,3 +31,19 @@ if __name__ == '__main__':
         print("Weird")
     elif n % 2 == 0 and n > 20:
         print("Not Weird")
+
+
+
+"""
+Recreating the code as a method 
+"""
+
+def weirdNumber(n):
+    if n % 2 != 0:
+        return "Weird"
+    elif n % 2 == 0 and n >= 2 and n <= 5:
+        return "Not Weird"
+    elif n % 2 == 0 and n >= 6 and n <= 20:
+        return "Weird"
+    elif n % 2 == 0 and n > 20:
+        return "Not Weird"
