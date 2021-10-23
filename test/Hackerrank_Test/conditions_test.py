@@ -1,5 +1,6 @@
 import unittest
-import conditions
+from Hackerrank import conditions
+
 
 class TestConditions(unittest.TestCase):
     def test_conditions1(self):
