@@ -38,5 +38,3 @@ if __name__ == '__main__':
         print(a*b)
     else:
         print("The input number must be >= 1 and <= 10^10")
-
-
